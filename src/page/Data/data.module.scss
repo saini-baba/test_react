@@ -1,0 +1,44 @@
+.main {
+  .content {
+    border-bottom: 0.2em solid #355070;
+    .control {
+      padding-block: 0.5em;
+      display: flex;
+      justify-content: flex-end;
+      // outline: 2px solid red;
+      gap: 2em;
+      > div {
+        display: flex;
+        gap: 0.5em;
+      }
+      button {
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: #e56b6f;
+        border-radius: 0.2em;
+        color: #355070;
+        border: none;
+        padding-inline: 1em;
+        padding-block: 0.3em;
+        &:hover {
+          background-color: #b56576;
+        }
+      }
+      input {
+        border: none;
+        padding-inline: 1em;
+        padding-block: 0.5em;
+        border-radius: 0.3em;
+      }
+      select {
+        border: none;
+        padding-inline: 0.5em;
+        padding-block: 0.5em;
+        border-radius: 0.3em;
+      }
+    }
+  }
+  .table {
+    padding-block: 4em;
+  }
+}
